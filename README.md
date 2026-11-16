@@ -48,6 +48,32 @@ py -3.11 -m http.server 8765 --bind 127.0.0.1 --directory docs
 
 Then open http://127.0.0.1:8765/. Students do not need Python or PSCAD when using direct file opening. A portable copy of the website is available from the GitHub release; local packaging writes it under `dist/`.
 
+## Single-file virtual laboratory
+
+The standalone edition combines all eight modules, the technical report, KaTeX/fonts,
+circuit diagrams, report figures, license notices and all 29 student recordings in
+one HTML file. Open `dist/HVDC_LCC_Virtual_Laboratory.html` directly in a recent
+Chrome or Edge browser. It needs no server, installation, companion folder or
+network connection. Optional source/reference links require Internet access only
+when explicitly opened. The approximately 77 MB size preserves every recorded
+student sample; the browser is a replay laboratory, not an EMT solver.
+
+Use the module selector or internal links. Switching modules pauses playback and
+retains each module's cursor, selections and exercise answers for the current
+session. Browser Back/Forward and direct module hashes (for example `#3`) work.
+Closing or reloading the file resets the session; no persistent storage is required.
+
+Rebuild and verify from the repository:
+
+```powershell
+py -3.11 python/build_single_file.py
+py -3.11 -m unittest discover -s tests -p test_single_file.py -v
+node tests/test_html/single_file.cjs
+```
+
+The manifest beside the generated HTML records its size and SHA-256. It is audit
+metadata and is not needed to run the HTML. See [standalone verification](reports/single_file_validation.md).
+
 ## Reproduce PSCAD simulations
 
 Use Windows, a licensed PSCAD 5.1.0 installation, an installed supported Fortran compiler, and Python 3.11. The recorded environment used GFortran 8.1 (64-bit). Set PSCAD's automation port explicitly when more than one instance is running.
