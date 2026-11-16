@@ -1,0 +1,7 @@
+{
+  "scope": "All blobs reachable from the selected publication commit",
+  "commit": "3d1ab22f9b2a468442b5d096b5e9fb6c1e4f8754",
+  "blobs_scanned": 621,
+  "issues": [],
+  "passed": true
+}
