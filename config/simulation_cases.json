@@ -1,0 +1,162 @@
+{
+  "core": {
+    "CF-00": {
+      "title": "Normal thyristor commutation"
+    },
+    "CF-01": {
+      "title": "Reduced extinction margin without failure",
+      "alpha_deg": 150.0,
+      "alpha_event_deg": 150.0,
+      "dc_voltage_v": 131200.0
+    },
+    "CF-02": {
+      "title": "Balanced three-phase voltage sag",
+      "sag_pu": 0.5
+    },
+    "CF-03": {
+      "title": "Single-line-to-ground fault",
+      "fault_type": 1
+    },
+    "CF-04": {
+      "title": "Line-to-line fault",
+      "fault_type": 2
+    },
+    "CF-05": {
+      "title": "Double-line-to-ground fault",
+      "fault_type": 3
+    },
+    "CF-06": {
+      "title": "Severe three-phase short circuit",
+      "fault_type": 4,
+      "fault_resistance_ohm": 0.2
+    },
+    "CF-07": {
+      "title": "AC voltage phase-angle jump",
+      "phase_jump_deg": -25.0
+    },
+    "CF-08": {
+      "title": "Sudden increase in DC source driving voltage",
+      "dc_step_pu": 1.3
+    },
+    "CF-09": {
+      "title": "Insufficient extinction margin",
+      "alpha_event_deg": 168.0
+    },
+    "CF-10": {
+      "title": "Weak AC grid",
+      "grid_inductance_h": 0.06,
+      "sag_pu": 0.8
+    },
+    "CF-11": {
+      "title": "Fifth harmonic commutation-voltage distortion",
+      "harmonic_pu": 0.25
+    },
+    "CF-12": {
+      "title": "Repeated failures during one voltage sag",
+      "sag_pu": 0.3,
+      "fault_duration_s": 0.12
+    },
+    "CF-13": {
+      "title": "Recovery after one AC disturbance",
+      "sag_pu": 0.35,
+      "fault_duration_s": 0.08
+    },
+    "CF-14": {
+      "title": "Persistent severe AC disturbance",
+      "sag_pu": 0.15,
+      "fault_duration_s": 0.25,
+      "duration_s": 0.7
+    }
+  },
+  "studies": {
+    "CF-13-R2": {
+      "title": "Recovery and DC restoration transient",
+      "sag_pu": 0.5,
+      "recovery_dc_pu": -0.2,
+      "recovery_hold_s": 0.12,
+      "restore_overshoot_pu": 1.0,
+      "restore_decay_s": 0.15,
+      "restore_rise_s": 0.1,
+      "duration_s": 0.9
+    },
+    "REC-NOMINAL": {
+      "title": "Recovery with DC suppression and nominal restoration",
+      "sag_pu": 0.5,
+      "recovery_dc_pu": -0.2,
+      "recovery_hold_s": 0.12,
+      "duration_s": 0.9
+    },
+    "SW-SAG-085": {
+      "title": "Refined sag sweep: 0.85 pu",
+      "sag_pu": 0.85
+    },
+    "SW-SAG-0875": {
+      "title": "Refined sag sweep: 0.875 pu",
+      "sag_pu": 0.875
+    },
+    "CF-13-R1": {
+      "title": "Recovery with prescribed DC restoration overshoot",
+      "sag_pu": 0.5,
+      "recovery_dc_pu": 0.05,
+      "recovery_hold_s": 0.12,
+      "restore_overshoot_pu": 0.5,
+      "restore_decay_s": 0.05,
+      "duration_s": 0.8
+    },
+    "REC-SMOOTH": {
+      "title": "Recovery with nominal DC voltage restoration",
+      "sag_pu": 0.5,
+      "recovery_dc_pu": 0.05,
+      "recovery_hold_s": 0.12,
+      "restore_overshoot_pu": 0.0,
+      "duration_s": 0.8
+    },
+    "SW-SAG-065": {
+      "title": "Sag sweep: 0.65 pu",
+      "sag_pu": 0.65
+    },
+    "SW-SAG-080": {
+      "title": "Sag sweep: 0.80 pu",
+      "sag_pu": 0.8
+    },
+    "SW-SAG-090": {
+      "title": "Sag sweep: 0.90 pu",
+      "sag_pu": 0.9
+    },
+    "REC-010": {
+      "title": "Recovery study: 10 ms sag",
+      "sag_pu": 0.5,
+      "fault_duration_s": 0.01
+    },
+    "MIT-ANGLE": {
+      "title": "Mitigation: temporary firing advance",
+      "sag_pu": 0.5,
+      "alpha_event_deg": 120.0
+    },
+    "MIT-DC": {
+      "title": "Mitigation: reduced DC source voltage",
+      "sag_pu": 0.5,
+      "dc_reduce_pu": 0.35
+    },
+    "MIT-COMBINED": {
+      "title": "Mitigation: firing advance and DC voltage reduction",
+      "sag_pu": 0.5,
+      "alpha_event_deg": 125.0,
+      "dc_reduce_pu": 0.65
+    },
+    "NUM-BASE-5US": {
+      "title": "Normal thyristor commutation",
+      "time_step_us": 5.0
+    },
+    "NUM-SAG-5US": {
+      "title": "Balanced three-phase voltage sag",
+      "sag_pu": 0.5,
+      "time_step_us": 5.0
+    },
+    "INCEPTION-90": {
+      "title": "Sag inception shifted by 90 electrical degrees",
+      "sag_pu": 0.5,
+      "fault_start_s": 0.305
+    }
+  }
+}

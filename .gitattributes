@@ -1,0 +1,7 @@
+# Preserve byte-level evidence and project-hash mappings across operating systems.
+* -text
+*.png binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary

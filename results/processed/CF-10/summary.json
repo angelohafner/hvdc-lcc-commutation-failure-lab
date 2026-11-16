@@ -1,0 +1,28 @@
+{
+  "case_id": "CF-10",
+  "title": "Weak AC grid",
+  "samples": 60001,
+  "time_step_us": 10.0,
+  "mean_dc_current_before_A": 571.5217278251964,
+  "mean_dc_voltage_before_V": -115248.1623619059,
+  "mean_power_before_W": 65864362.69209002,
+  "mean_grid_power_before_W": 65867829.26367599,
+  "mean_dc_current_final_A": 21874.958824853267,
+  "dc_ripple_final_fraction": 0.04492008327593234,
+  "peak_dc_current_A": 22317.255373279,
+  "verified_failure_events": 3,
+  "post_clearing_failure_events": 0,
+  "subsequent_failure_events": 0,
+  "recovery_intervals": [],
+  "stable_recovery_start_s": null,
+  "stable_recovery_delay_s": null,
+  "recovery_criterion": "Six consecutive successful attempts after clearing, maintained to record end",
+  "inconclusive_events": 84,
+  "min_valid_gamma_deg": 14.939999999999953,
+  "kcl_max_error_A": {
+    "upper": 3.2446312589635227,
+    "lower": 3.244631258036975
+  },
+  "execution_status": "success",
+  "physical_consistency": "pass"
+}

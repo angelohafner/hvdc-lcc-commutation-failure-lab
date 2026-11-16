@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mode": "Extracted offline ZIP, direct file opening",
+  "checks": [
+    "Hub data loaded",
+    "Recovery recording selected with comparison",
+    "No JavaScript errors"
+  ],
+  "archive_sha256": "ea158d68394209bb8ada6ba71f7d04b10e3ab0ebcb2bc81f0136767ba506544d"
+}

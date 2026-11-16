@@ -1,0 +1,1958 @@
+{
+  "baseline": {
+    "mean_idc_A": 1291.9405230990867,
+    "mean_vdc_V": -111703.77705838694,
+    "mean_pdc_W": 144309058.34886947,
+    "mean_pac_W": 144332169.60466135,
+    "peak_to_peak_current_fraction": 0.03870231825228158,
+    "cycle_mean_drift_fraction": 8.137643319311154e-05,
+    "firing_sequence_correct": true,
+    "gate_width_deg_min": 119.87999999999998,
+    "gate_width_deg_max": 120.06000000000117,
+    "mean_overlap_deg": 11.455714285714324,
+    "min_gamma_deg": 28.799999999998825,
+    "pass": true
+  },
+  "cases": [
+    {
+      "case_id": "CF-00",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.9769439644369413,
+      "dc_source_median_residual_V": 0.30456036866962677,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.92572458874929,
+            "B": 3.924550194016774,
+            "C": 3.9845357783779036
+          },
+          "dc_median_residual_V": 0.28065494012844283,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.9772818889759947,
+            "B": 3.929946913722233,
+            "C": 3.991730755456956
+          },
+          "dc_median_residual_V": 0.3185966080491198,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 0.7654915482121396,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 0,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-01",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 2.7656921575253364,
+      "dc_source_median_residual_V": 0.311016264531645,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.730046738157398,
+            "B": 2.7734141774562886,
+            "C": 2.7369995852932334
+          },
+          "dc_median_residual_V": 0.2996294123586267,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.731392736262933,
+            "B": 2.7740566332940944,
+            "C": 2.728631543206575
+          },
+          "dc_median_residual_V": 0.3068895245087333,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.720498577444232,
+            "B": 2.7662334930646466,
+            "C": 2.738440114451805
+          },
+          "dc_median_residual_V": 0.31843846713309176,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 0.6919225240928881,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 0,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-02",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.498995332760387,
+      "dc_source_median_residual_V": 0.0001826150546548888,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.0675197194796056e-05,
+            "B": 1.8590677701649838,
+            "C": 0.51679448212235
+          },
+          "dc_median_residual_V": 0.0001551658206153661,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 4.0238672227133065e-05,
+            "B": 3.1630718765700294,
+            "C": 2.035795192292426
+          },
+          "dc_median_residual_V": 0.00010609019955154508,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.786569477002786,
+      "unique_firing_event_ids": true,
+      "verified_failures": 30,
+      "inconclusive": 57,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-03",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.098088505590567,
+      "dc_source_median_residual_V": 0.00018792683113133535,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 138.47726128966315,
+            "B": 1.0538464697019663,
+            "C": 0.00042429981840541586
+          },
+          "dc_median_residual_V": 0.00018246845866087824,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.29505689560755854,
+            "B": 0.21794865334231872,
+            "C": 0.000166662906849524
+          },
+          "dc_median_residual_V": 0.00011135623208247125,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.360729133930363,
+      "unique_firing_event_ids": true,
+      "verified_failures": 28,
+      "inconclusive": 55,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-04",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.32284470385639,
+      "dc_source_median_residual_V": 0.00018604130309540778,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 138.64245032718463,
+            "B": 142.8953555764092,
+            "C": 0.06459797358547803
+          },
+          "dc_median_residual_V": 0.00016490762936882675,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 4.0566097595728934e-05,
+            "B": 3.3519500658985635,
+            "C": 2.016939692432061
+          },
+          "dc_median_residual_V": 0.00010265172750223428,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.6903211604058015,
+      "unique_firing_event_ids": true,
+      "verified_failures": 31,
+      "inconclusive": 57,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-05",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.271795521992317,
+      "dc_source_median_residual_V": 0.00016760488506406546,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.013323519015102647,
+            "B": 147.50627485166478,
+            "C": 127.98265570560761
+          },
+          "dc_median_residual_V": 8.173726382665336e-05,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.00037709502794314176,
+            "B": 5.5611555580981076e-05,
+            "C": 0.000542984897037968
+          },
+          "dc_median_residual_V": 9.903124009724706e-05,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.183511387568842,
+      "unique_firing_event_ids": true,
+      "verified_failures": 37,
+      "inconclusive": 51,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-06",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.583666961368181,
+      "dc_source_median_residual_V": 0.0001929076315718703,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 175.7722944905836,
+            "B": 182.75681624719437,
+            "C": 181.67580606744013
+          },
+          "dc_median_residual_V": 0.00018288542923983186,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 4.163744597462937e-05,
+            "B": 3.7380363681004383,
+            "C": 2.429299128241837
+          },
+          "dc_median_residual_V": 0.00010086271504405886,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.2023942285688918,
+      "unique_firing_event_ids": true,
+      "verified_failures": 25,
+      "inconclusive": 64,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-07",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.451167217870534,
+      "dc_source_median_residual_V": 0.24036682044970803,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.343029288276739,
+            "B": 6.294514682591398,
+            "C": 6.304630945900499
+          },
+          "dc_median_residual_V": 0.20252575735503342,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.389926056726836e-05,
+            "B": 6.183899612282403,
+            "C": 7.9514225933780835
+          },
+          "dc_median_residual_V": 0.21327001143072266,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 4.159640007075723,
+      "unique_firing_event_ids": true,
+      "verified_failures": 22,
+      "inconclusive": 43,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-08",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.0681907901889645,
+      "dc_source_median_residual_V": 0.00021824423311045393,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.8512708990456304,
+            "B": 3.3812863475613995,
+            "C": 6.573285645572469e-05
+          },
+          "dc_median_residual_V": 0.00030298790079541504,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.4382089845748851,
+            "B": 0.3307008573356143,
+            "C": 0.00024492850207025185
+          },
+          "dc_median_residual_V": 0.00010049600678030401,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.9712295228305265,
+      "unique_firing_event_ids": true,
+      "verified_failures": 26,
+      "inconclusive": 54,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-09",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.549826914691948,
+      "dc_source_median_residual_V": 0.26255513832438737,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 5.767370600719005,
+            "B": 6.3601100336018135,
+            "C": 2.554453385528177e-05
+          },
+          "dc_median_residual_V": 0.3065563375130296,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.112168724852381,
+            "B": 8.055828813936387,
+            "C": 3.025834303116426e-05
+          },
+          "dc_median_residual_V": 0.21817374271631707,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 4.472575795732155,
+      "unique_firing_event_ids": true,
+      "verified_failures": 24,
+      "inconclusive": 67,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-10",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 15.871400885895127,
+      "dc_source_median_residual_V": 9.33111587073654e-05,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 20.159809613978723,
+            "B": 20.27253806000226,
+            "C": 19.97322483235621
+          },
+          "dc_median_residual_V": 0.24010359081148636,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.0002484399519744329,
+            "B": 13.56759118662012,
+            "C": 0.7052623681738623
+          },
+          "dc_median_residual_V": 0.00018272736633662134,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.0003370152262505144,
+            "B": 1.0325495851575397,
+            "C": 0.7455042835936183
+          },
+          "dc_median_residual_V": 4.1661784052848816e-05,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.2446312589635227,
+      "unique_firing_event_ids": true,
+      "verified_failures": 3,
+      "inconclusive": 84,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-11",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 4.127185645433201,
+      "dc_source_median_residual_V": 0.31632260820333613,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.231478295791021,
+            "B": 6.354976207905565,
+            "C": 6.375302900079987
+          },
+          "dc_median_residual_V": 1.5449415248149307,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.9461468713343493,
+            "B": 3.9191019939316902,
+            "C": 3.9772954548243433
+          },
+          "dc_median_residual_V": 0.29956795551697724,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 1.4049201939766363,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 0,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-12",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.52292927164126,
+      "dc_source_median_residual_V": 0.23525011432502652,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.42,
+          "samples": 11799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 1.9295336986160692,
+            "B": 11.888371804659982,
+            "C": 0.02925892655912321
+          },
+          "dc_median_residual_V": 0.08021888340590522,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.42,
+          "end_s": 0.6,
+          "samples": 17799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.136372628501704,
+            "B": 8.083962668693857,
+            "C": 3.056500281672925e-05
+          },
+          "dc_median_residual_V": 0.21032313485920895,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.1796127662655636,
+      "unique_firing_event_ids": true,
+      "verified_failures": 27,
+      "inconclusive": 61,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-13",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 6.631872630663565,
+      "dc_source_median_residual_V": 0.24220130012690788,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.159854299738072,
+            "B": 11.354945226335985,
+            "C": 1.0532367014093325e-05
+          },
+          "dc_median_residual_V": 0.07516604411648586,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.108979746320983,
+            "B": 8.080161867008428,
+            "C": 3.0392417102120817e-05
+          },
+          "dc_median_residual_V": 0.25323446874972433,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.4461127070153452,
+      "unique_firing_event_ids": true,
+      "verified_failures": 30,
+      "inconclusive": 58,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-13-R1",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 80001,
+      "ac_source_median_residual_V": 3.3159827194376703,
+      "dc_source_median_residual_V": 0.0002106745305354707,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.0675197194796056e-05,
+            "B": 1.8590677701649838,
+            "C": 0.51679448212235
+          },
+          "dc_median_residual_V": 0.0001551658206153661,
+          "pass": true
+        },
+        {
+          "phase": "dc_suppression",
+          "start_s": 0.38,
+          "end_s": 0.5,
+          "samples": 11799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.140123878140002e-05,
+            "B": 0.001074477462680079,
+            "C": 0.0005560078134294599
+          },
+          "dc_median_residual_V": 0.0001400447708874708,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.5,
+          "end_s": 0.8,
+          "samples": 29799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 4.025427915621549e-05,
+            "B": 3.7527023027505493,
+            "C": 2.428968735097442
+          },
+          "dc_median_residual_V": 0.00017516434309072793,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.0597144581688553,
+      "unique_firing_event_ids": true,
+      "verified_failures": 50,
+      "inconclusive": 97,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "CF-13-R2",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 90001,
+      "ac_source_median_residual_V": 2.8801743133954005,
+      "dc_source_median_residual_V": 0.0001780757575033931,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.0675197194796056e-05,
+            "B": 1.8590677701649838,
+            "C": 0.51679448212235
+          },
+          "dc_median_residual_V": 0.0001551658206153661,
+          "pass": true
+        },
+        {
+          "phase": "dc_suppression",
+          "start_s": 0.38,
+          "end_s": 0.5,
+          "samples": 11799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 5.588713975157589e-05,
+            "B": 0.0009520487728877924,
+            "C": 0.0005315673770383
+          },
+          "dc_median_residual_V": 0.00020340057744760998,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.5,
+          "end_s": 0.9,
+          "samples": 39799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 5.184095061849803e-05,
+            "B": 2.6628479281062027,
+            "C": 2.4093286485149292
+          },
+          "dc_median_residual_V": 0.00014745324733667076,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.989487801022733,
+      "unique_firing_event_ids": true,
+      "verified_failures": 50,
+      "inconclusive": 106,
+      "subsequent": 1,
+      "pass": true
+    },
+    {
+      "case_id": "CF-14",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 70001,
+      "ac_source_median_residual_V": 14.461388820611319,
+      "dc_source_median_residual_V": 7.283189916051924e-05,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.55,
+          "samples": 24799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.89252566290088e-05,
+            "B": 12.189454822093467,
+            "C": 12.091301941690745
+          },
+          "dc_median_residual_V": 7.90598860476166e-05,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.55,
+          "end_s": 0.7,
+          "samples": 14799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 9.471350858802907e-05,
+            "B": 81.86853159390739,
+            "C": 80.13109297645497
+          },
+          "dc_median_residual_V": 1.704646274447441e-05,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.418050637976421,
+      "unique_firing_event_ids": true,
+      "verified_failures": 1,
+      "inconclusive": 118,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "INCEPTION-90",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 2.778220972730196,
+      "dc_source_median_residual_V": 0.0001854224974522367,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.305,
+          "samples": 10299,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.9663932482071687,
+            "B": 3.923023847717559,
+            "C": 3.9334565765748266
+          },
+          "dc_median_residual_V": 0.2983249574317597,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.305,
+          "end_s": 0.385,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.48926568410388427,
+            "B": 0.3474829147235141,
+            "C": 2.1731219021603465e-05
+          },
+          "dc_median_residual_V": 0.0001517162163509056,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.385,
+          "end_s": 0.6,
+          "samples": 21299,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.38514568464597687,
+            "B": 0.2878568017440557,
+            "C": 0.00021112451213411987
+          },
+          "dc_median_residual_V": 0.00010461603233125061,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.800939665552505,
+      "unique_firing_event_ids": true,
+      "verified_failures": 29,
+      "inconclusive": 57,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "MIT-ANGLE",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.715908051628503,
+      "dc_source_median_residual_V": 0.0001824846476665698,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 35.182725728403966,
+            "B": 36.28984230645801,
+            "C": 1.940348738571629e-05
+          },
+          "dc_median_residual_V": 0.00014904448471497744,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.33963109170872485,
+            "B": 0.25255937613837887,
+            "C": 0.00022871666442370042
+          },
+          "dc_median_residual_V": 0.00010908645344898105,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.6851524889939355,
+      "unique_firing_event_ids": true,
+      "verified_failures": 28,
+      "inconclusive": 55,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "MIT-COMBINED",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.27440559722163,
+      "dc_source_median_residual_V": 0.00018100104352924973,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.2464065164749627,
+            "B": 0.00024330433370778337,
+            "C": 3.046978544806734
+          },
+          "dc_median_residual_V": 0.0904477429430699,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.8650974103366025,
+            "B": 4.5231354306451976e-05,
+            "C": 1.1006617990133236
+          },
+          "dc_median_residual_V": 0.00011797620391007513,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 1.9092777058904176,
+      "unique_firing_event_ids": true,
+      "verified_failures": 25,
+      "inconclusive": 51,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "MIT-DC",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.3075375870685093,
+      "dc_source_median_residual_V": 0.29658272193046287,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 1.3143536358184065,
+            "B": 1.3694466704509978,
+            "C": 1.4356280420615803
+          },
+          "dc_median_residual_V": 0.12279996956931427,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.861886211670935,
+            "B": 3.880301634708303,
+            "C": 3.9531494813854806
+          },
+          "dc_median_residual_V": 0.31379824693431146,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 1.2716430288612344,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 14,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "NUM-BASE-5US",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 120001,
+      "ac_source_median_residual_V": 2.146560231121839,
+      "dc_source_median_residual_V": 0.068962823075708,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 19599,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.498342335340567,
+            "B": 2.317635858147696,
+            "C": 2.206431533984869
+          },
+          "dc_median_residual_V": 0.07572170962521341,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 15599,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.277833131083753,
+            "B": 2.341013797413325,
+            "C": 2.179286316022626
+          },
+          "dc_median_residual_V": 0.07842812659509946,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 43599,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 1.9842836756142788,
+            "B": 1.9597409785055788,
+            "C": 2.064378558352473
+          },
+          "dc_median_residual_V": 0.0645665833435487,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 0.382507675222314,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 0,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "NUM-SAG-5US",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 120001,
+      "ac_source_median_residual_V": 2.2035579773619247,
+      "dc_source_median_residual_V": 5.428249278338626e-05,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 19599,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.498342335340567,
+            "B": 2.317635858147696,
+            "C": 2.206431533984869
+          },
+          "dc_median_residual_V": 0.07572170962521341,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 15599,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 1.4180048310663551e-05,
+            "B": 1.0841686612548074,
+            "C": 0.001194653297716286
+          },
+          "dc_median_residual_V": 3.905851917807013e-05,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 43599,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.5540422939229757e-05,
+            "B": 1.031587513640261,
+            "C": 0.682308474148158
+          },
+          "dc_median_residual_V": 3.8412443245761096e-05,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 1.3938141292599084,
+      "unique_firing_event_ids": true,
+      "verified_failures": 30,
+      "inconclusive": 57,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "REC-010",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.560990120709903,
+      "dc_source_median_residual_V": 0.00018290158186573535,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.31,
+          "samples": 799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 1.2869854269374628,
+            "B": 49.59771806279605,
+            "C": 33.23284525684721
+          },
+          "dc_median_residual_V": 0.13471904025936965,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "samples": 28799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 5.1683440688066185e-05,
+            "B": 2.6359153744888317,
+            "C": 1.710093459521886
+          },
+          "dc_median_residual_V": 0.00011830295261461288,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.786569477002786,
+      "unique_firing_event_ids": true,
+      "verified_failures": 30,
+      "inconclusive": 57,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "REC-NOMINAL",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 90001,
+      "ac_source_median_residual_V": 3.7766332634491846,
+      "dc_source_median_residual_V": 0.24747525116981706,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.0675197194796056e-05,
+            "B": 1.8590677701649838,
+            "C": 0.51679448212235
+          },
+          "dc_median_residual_V": 0.0001551658206153661,
+          "pass": true
+        },
+        {
+          "phase": "dc_suppression",
+          "start_s": 0.38,
+          "end_s": 0.5,
+          "samples": 11799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 5.588713975157589e-05,
+            "B": 0.0009520487728877924,
+            "C": 0.0005315673770383
+          },
+          "dc_median_residual_V": 0.00020340057744760998,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.5,
+          "end_s": 0.9,
+          "samples": 39799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.93219744534872,
+            "B": 3.9371194209816167,
+            "C": 3.955204955957015
+          },
+          "dc_median_residual_V": 0.2944228044070769,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.1459193796504223,
+      "unique_firing_event_ids": true,
+      "verified_failures": 17,
+      "inconclusive": 40,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "REC-SMOOTH",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 80001,
+      "ac_source_median_residual_V": 2.93941587061272,
+      "dc_source_median_residual_V": 0.00016649979806970805,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.0675197194796056e-05,
+            "B": 1.8590677701649838,
+            "C": 0.51679448212235
+          },
+          "dc_median_residual_V": 0.0001551658206153661,
+          "pass": true
+        },
+        {
+          "phase": "dc_suppression",
+          "start_s": 0.38,
+          "end_s": 0.5,
+          "samples": 11799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 6.140123878140002e-05,
+            "B": 0.001074477462680079,
+            "C": 0.0005560078134294599
+          },
+          "dc_median_residual_V": 0.0001400447708874708,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.5,
+          "end_s": 0.8,
+          "samples": 29799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 4.89063240820542e-05,
+            "B": 2.6487285690018325,
+            "C": 1.7184072687814478
+          },
+          "dc_median_residual_V": 0.00011645244376268238,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.786569477002786,
+      "unique_firing_event_ids": true,
+      "verified_failures": 50,
+      "inconclusive": 97,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "SW-SAG-065",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 2.5210534508660203,
+      "dc_source_median_residual_V": 0.00018506875494495034,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 1.9055940226171515,
+            "B": 0.3963082420959836,
+            "C": 2.795773616526276e-05
+          },
+          "dc_median_residual_V": 0.0001652643404668197,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.361667568788107,
+            "B": 0.2689573106035823,
+            "C": 0.0002445707723381929
+          },
+          "dc_median_residual_V": 0.00010723837476689368,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 2.948742007792589,
+      "unique_firing_event_ids": true,
+      "verified_failures": 28,
+      "inconclusive": 58,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "SW-SAG-080",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.1062706895463634,
+      "dc_source_median_residual_V": 0.0001970577795873396,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 2.527849252357555,
+            "B": 0.0003598620060074609,
+            "C": 2.401420298621815
+          },
+          "dc_median_residual_V": 0.0002450264582876116,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.000350741611327976,
+            "B": 4.7031790018081665e-05,
+            "C": 0.0004983261460438371
+          },
+          "dc_median_residual_V": 0.00011486344737932086,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.0792316442189076,
+      "unique_firing_event_ids": true,
+      "verified_failures": 26,
+      "inconclusive": 53,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "SW-SAG-085",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.2123836423998,
+      "dc_source_median_residual_V": 0.00021545634808717296,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.277830734732561,
+            "B": 3.240040991746355,
+            "C": 2.228841185969941
+          },
+          "dc_median_residual_V": 0.22511546860914677,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 0.0016522167934454046,
+            "B": 0.0010701907594921067,
+            "C": 4.385710053611547e-05
+          },
+          "dc_median_residual_V": 0.00012162547500338405,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 3.1270047200605404,
+      "unique_firing_event_ids": true,
+      "verified_failures": 24,
+      "inconclusive": 47,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "SW-SAG-0875",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.835403295557626,
+      "dc_source_median_residual_V": 0.2821759161815862,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.4193886609282345,
+            "B": 3.4376558859148645,
+            "C": 3.4051798412110656
+          },
+          "dc_median_residual_V": 0.24470421113073826,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.933950281163561,
+            "B": 3.9629353748605354,
+            "C": 3.972231756139081
+          },
+          "dc_median_residual_V": 0.29237197925976943,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 0.9176226369349934,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 0,
+      "subsequent": 0,
+      "pass": true
+    },
+    {
+      "case_id": "SW-SAG-090",
+      "execution": "success",
+      "channels": 40,
+      "source_hashes_verified": true,
+      "native_samples": 60001,
+      "ac_source_median_residual_V": 3.867165685092914,
+      "dc_source_median_residual_V": 0.2822054253920214,
+      "source_profile_segments": [
+        {
+          "phase": "pre_event",
+          "start_s": 0.2,
+          "end_s": 0.3,
+          "samples": 9799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.910945991112385,
+            "B": 3.8945652482871083,
+            "C": 3.9732303693745052
+          },
+          "dc_median_residual_V": 0.29529265106248204,
+          "pass": true
+        },
+        {
+          "phase": "disturbance",
+          "start_s": 0.3,
+          "end_s": 0.38,
+          "samples": 7799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.5075932688632747,
+            "B": 3.5287788600398926,
+            "C": 3.535544031561585
+          },
+          "dc_median_residual_V": 0.25655905273742974,
+          "pass": true
+        },
+        {
+          "phase": "restoration",
+          "start_s": 0.38,
+          "end_s": 0.6,
+          "samples": 21799,
+          "transition_exclusion_s": 0.001,
+          "ac_median_residual_V": {
+            "A": 3.9367405259108637,
+            "B": 3.969203444896266,
+            "C": 3.968123340404418
+          },
+          "dc_median_residual_V": 0.28732444159686565,
+          "pass": true
+        }
+      ],
+      "gate_event_window_max_error": 0.0,
+      "max_kcl_residual_A": 0.8849672334711158,
+      "unique_firing_event_ids": true,
+      "verified_failures": 0,
+      "inconclusive": 0,
+      "subsequent": 0,
+      "pass": true
+    }
+  ],
+  "numerical_sensitivity": [
+    {
+      "original": "CF-00",
+      "refined": "NUM-BASE-5US",
+      "peak_current_relative_change": -0.00766020393040201,
+      "failure_count_10us": 0,
+      "failure_count_5us": 0,
+      "min_gamma_difference_deg": 0.18000000000117922,
+      "first_failure_time_difference_s": null
+    },
+    {
+      "original": "CF-02",
+      "refined": "NUM-SAG-5US",
+      "peak_current_relative_change": -2.3286755531981562e-05,
+      "failure_count_10us": 30,
+      "failure_count_5us": 30,
+      "min_gamma_difference_deg": 0.0900000000015897,
+      "first_failure_time_difference_s": 0.0
+    }
+  ],
+  "total_executed": 31,
+  "total_verified_failure_attempts": 671,
+  "pass_all": true,
+  "scope": "Audits data integrity, source profiles, KCL, baseline operation and two time steps; not validation of a complete HVDC control/protection design."
+}

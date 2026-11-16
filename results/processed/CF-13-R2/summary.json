@@ -1,0 +1,34 @@
+{
+  "case_id": "CF-13-R2",
+  "title": "Recovery and DC restoration transient",
+  "samples": 90001,
+  "time_step_us": 10.0,
+  "mean_dc_current_before_A": 1245.4950888624796,
+  "mean_dc_voltage_before_V": -111411.84035497118,
+  "mean_power_before_W": 138768656.1750958,
+  "mean_grid_power_before_W": 138789303.6273474,
+  "mean_dc_current_final_A": 25838.358399536362,
+  "dc_ripple_final_fraction": 0.008720694696534635,
+  "peak_dc_current_A": 25926.332738271,
+  "verified_failure_events": 50,
+  "post_clearing_failure_events": 42,
+  "subsequent_failure_events": 1,
+  "recovery_intervals": [
+    {
+      "start_s": 0.50612,
+      "established_s": 0.52278,
+      "next_failure_s": 0.57278
+    }
+  ],
+  "stable_recovery_start_s": null,
+  "stable_recovery_delay_s": null,
+  "recovery_criterion": "Six consecutive successful attempts after clearing, maintained to record end",
+  "inconclusive_events": 106,
+  "min_valid_gamma_deg": 5.040000000001044,
+  "kcl_max_error_A": {
+    "upper": 3.989487801022733,
+    "lower": 3.9894878004852217
+  },
+  "execution_status": "success",
+  "physical_consistency": "pass"
+}

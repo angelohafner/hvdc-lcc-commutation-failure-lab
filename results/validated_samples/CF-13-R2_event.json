@@ -1,0 +1,28 @@
+{
+  "classification": "unsuccessful_transfer",
+  "verified_failure": true,
+  "gamma_deg": null,
+  "overlap_deg": null,
+  "current_completion_s": null,
+  "reverse_bias_end_s": null,
+  "failure_time_s": 0.57501,
+  "evidence": [
+    "Gate applied and incoming current rose, but outgoing current never extinguished",
+    "Measured PCC commutation voltage reversed while the outgoing valve remained conducting"
+  ],
+  "current_threshold_A": 110.239228795298,
+  "outgoing_at_gate_A": 4642.006070203301,
+  "incoming_at_gate_A": 0.00091214779699729,
+  "incoming_peak_A": 2605.2014127032003,
+  "incoming_rise_A": 2605.2005005554033,
+  "incoming_rise_time_s": 0.57303,
+  "time_s": 0.57278,
+  "incoming": "T2",
+  "outgoing": "T6",
+  "expected_outgoing": "T6",
+  "abnormal_sequence": false,
+  "window_end_s": 0.57944,
+  "next_group_gate_s": 0.57945,
+  "event_id": "E106",
+  "subsequent_after_recovery": true
+}

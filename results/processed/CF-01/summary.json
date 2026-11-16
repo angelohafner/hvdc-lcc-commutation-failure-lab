@@ -1,0 +1,34 @@
+{
+  "case_id": "CF-01",
+  "title": "Reduced extinction margin without failure",
+  "samples": 60001,
+  "time_step_us": 10.0,
+  "mean_dc_current_before_A": 1215.2848935941952,
+  "mean_dc_voltage_before_V": -124730.55606800468,
+  "mean_power_before_W": 151592701.35125878,
+  "mean_grid_power_before_W": 151569541.26759425,
+  "mean_dc_current_final_A": 1261.8676352871178,
+  "dc_ripple_final_fraction": 0.027074122457484494,
+  "peak_dc_current_A": 1275.4425812979998,
+  "verified_failure_events": 0,
+  "post_clearing_failure_events": 0,
+  "subsequent_failure_events": 0,
+  "recovery_intervals": [
+    {
+      "start_s": 0.38,
+      "established_s": 0.39667,
+      "next_failure_s": null
+    }
+  ],
+  "stable_recovery_start_s": 0.38,
+  "stable_recovery_delay_s": 0.0,
+  "recovery_criterion": "Six consecutive successful attempts after clearing, maintained to record end",
+  "inconclusive_events": 0,
+  "min_valid_gamma_deg": 12.599999999998612,
+  "kcl_max_error_A": {
+    "upper": 0.6919225240928881,
+    "lower": 0.6919225229962649
+  },
+  "execution_status": "success",
+  "physical_consistency": "pass"
+}

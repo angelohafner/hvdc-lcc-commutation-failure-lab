@@ -1,0 +1,29 @@
+{
+  "classification": "resumed_conduction",
+  "verified_failure": true,
+  "gamma_deg": null,
+  "overlap_deg": 58.67999999999973,
+  "current_completion_s": 0.30604,
+  "reverse_bias_end_s": null,
+  "failure_time_s": 0.30614,
+  "evidence": [
+    "Outgoing current reached its off threshold, sustained reverse voltage, and then resumed without a new gate",
+    "Incoming current rose and outgoing valve voltage returned to a conducting value"
+  ],
+  "current_threshold_A": 51.061569055284,
+  "outgoing_at_gate_A": 1838.3145019685,
+  "incoming_at_gate_A": 9.3535971992403e-05,
+  "incoming_peak_A": 2555.1820103798,
+  "incoming_rise_A": 2555.181916843828,
+  "incoming_rise_time_s": 0.30316,
+  "current_threshold_crossing_s": 0.30596,
+  "reverse_bias_start_s": 0.30604,
+  "time_s": 0.30278,
+  "incoming": "T5",
+  "outgoing": "T3",
+  "expected_outgoing": "T3",
+  "abnormal_sequence": false,
+  "window_end_s": 0.30944,
+  "next_group_gate_s": 0.30945,
+  "event_id": "E025"
+}

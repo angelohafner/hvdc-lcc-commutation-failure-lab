@@ -1,0 +1,30 @@
+{
+  "classification": "reduced_margin",
+  "verified_failure": false,
+  "gamma_deg": 12.60000000000061,
+  "overlap_deg": 17.639999999999656,
+  "current_completion_s": 0.50432,
+  "reverse_bias_end_s": 0.50502,
+  "failure_time_s": null,
+  "evidence": [
+    "Outgoing current extinguished; incoming valve carried current",
+    "Outgoing valve sustained reverse voltage and did not resume conduction in the observation interval"
+  ],
+  "current_threshold_A": 25.23380143048,
+  "outgoing_at_gate_A": 1241.5016937267999,
+  "incoming_at_gate_A": 0.0007058768523922301,
+  "incoming_peak_A": 1274.8672793279,
+  "incoming_rise_A": 1274.8665734510475,
+  "incoming_rise_time_s": 0.50341,
+  "current_threshold_crossing_s": 0.50428,
+  "reverse_bias_start_s": 0.50432,
+  "recovery_time_margin_s": 0.000500000000000034,
+  "time_s": 0.50334,
+  "incoming": "T5",
+  "outgoing": "T3",
+  "expected_outgoing": "T3",
+  "abnormal_sequence": false,
+  "window_end_s": 0.50999,
+  "next_group_gate_s": 0.51,
+  "event_id": "E086"
+}

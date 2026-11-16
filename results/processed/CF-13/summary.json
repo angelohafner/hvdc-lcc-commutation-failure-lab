@@ -1,0 +1,28 @@
+{
+  "case_id": "CF-13",
+  "title": "Recovery after one AC disturbance",
+  "samples": 60001,
+  "time_step_us": 10.0,
+  "mean_dc_current_before_A": 1245.4950888624796,
+  "mean_dc_voltage_before_V": -111411.84035497118,
+  "mean_power_before_W": 138768656.1750958,
+  "mean_grid_power_before_W": 138789303.6273474,
+  "mean_dc_current_final_A": 19813.1308148008,
+  "dc_ripple_final_fraction": 0.10581850714894582,
+  "peak_dc_current_A": 20917.395852925998,
+  "verified_failure_events": 30,
+  "post_clearing_failure_events": 22,
+  "subsequent_failure_events": 0,
+  "recovery_intervals": [],
+  "stable_recovery_start_s": null,
+  "stable_recovery_delay_s": null,
+  "recovery_criterion": "Six consecutive successful attempts after clearing, maintained to record end",
+  "inconclusive_events": 58,
+  "min_valid_gamma_deg": 23.04000000000006,
+  "kcl_max_error_A": {
+    "upper": 3.4461127070153452,
+    "lower": 3.4461127064623724
+  },
+  "execution_status": "success",
+  "physical_consistency": "pass"
+}

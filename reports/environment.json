@@ -1,0 +1,32 @@
+{
+  "python": "3.11.4",
+  "platform": "Windows",
+  "git_available": true,
+  "gh_available": false,
+  "packages": {
+    "mhi.pscad": "3.1.2",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2",
+    "schemdraw": "0.23",
+    "PyYAML": "6.0.3"
+  },
+  "pscad_installations": [
+    [
+      "5.1.0",
+      true
+    ]
+  ],
+  "pscad_version": "5.1.0",
+  "licensed": true,
+  "configured_compiler": "GFortran 8.1 (64-bit)",
+  "available_compilers": [
+    "GFortran 13.2",
+    "GFortran 13.2 (64-bit)",
+    "GFortran 8.1",
+    "GFortran 8.1 (64-bit)",
+    "Intel Fortran Compiler Classic 2021.10.0 (64-bit), v19.2.49496",
+    "Intel Fortran Compiler Classic 2021.10.0, v19.2.49496",
+    "Intel Visual Fortran Compiler XE 15.0.1.148",
+    "Intel Visual Fortran Compiler XE 15.0.1.148 (64-bit)"
+  ]
+}
