@@ -21,7 +21,7 @@ const results=[],errors=[],blocked=[];
   for(let i=0;i<8;i++){
    await check('Module '+i+' playback, controls, plots and diagram',async()=>{
     const f=await go(i);assert.equal(await f.locator('#circuit [data-valve]').count(),6);
-    const before=await f.locator('#time-value').innerText();await f.locator('#play').click();await page.waitForTimeout(150);await f.locator('#pause').click();assert.notEqual(await f.locator('#time-value').innerText(),before);
+    const before=await f.locator('#time-value').innerText();await f.locator('#play').click();await f.waitForFunction(value=>document.querySelector('#time-value').innerText!==value,before,{timeout:5000});await f.locator('#pause').click();assert.notEqual(await f.locator('#time-value').innerText(),before);
     await f.locator('#time').fill('6000');for(const id of ['zoom-in','zoom-out','pan-left','pan-right','reset-view','whole-record','focus-event','next-step','previous-step','reset'])await f.locator('#'+id).click();
     for(const view of ['system','valves','gates','angles','commutation']){await f.locator('#signal-view').selectOption(view);assert.ok(await f.locator('#primary-plots canvas').count()>0);}
     await f.locator('#speed').selectOption('2');await f.locator('#enlarge').click();assert.equal(await f.locator('#diagram-dialog').isVisible(),true);

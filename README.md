@@ -50,6 +50,8 @@ Then open http://127.0.0.1:8765/. Students do not need Python or PSCAD when usin
 
 ## Single-file virtual laboratory
 
+[Download the self-contained HTML (77 MB)](https://github.com/angelohafner/hvdc-lcc-commutation-failure-lab/releases/download/v1.1.0/HVDC_LCC_Virtual_Laboratory.html).
+
 The standalone edition combines all eight modules, the technical report, KaTeX/fonts,
 circuit diagrams, report figures, license notices and all 29 student recordings in
 one HTML file. Open `dist/HVDC_LCC_Virtual_Laboratory.html` directly in a recent
