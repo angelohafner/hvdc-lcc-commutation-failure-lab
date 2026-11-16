@@ -35,6 +35,15 @@ jobs:
           node tests/test_html/interaction.cjs
       - name: Exercise the isolated single HTML with networking disabled
         run: node tests/test_html/single_file.cjs
+      - name: Assemble the Pages site with the verified standalone HTML
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          python -c "import shutil; shutil.copytree('docs', '.local/pages', dirs_exist_ok=True); shutil.copy2('dist/HVDC_LCC_Virtual_Laboratory.html', '.local/pages/HVDC_LCC_Virtual_Laboratory.html'); shutil.copy2('dist/HVDC_LCC_Virtual_Laboratory.manifest.json', '.local/pages/HVDC_LCC_Virtual_Laboratory.manifest.json')"
+      - name: Upload the verified Pages site
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .local/pages
       - name: Retain verification evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -44,3 +53,23 @@ jobs:
             reports/browser_tests.json
             reports/release_audit.json
             reports/single_file_browser_tests.json
+  deploy-pages:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: source-and-browser
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy the verified site
+        id: deployment
+        uses: actions/deploy-pages@v4

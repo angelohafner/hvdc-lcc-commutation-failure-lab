@@ -50,6 +50,8 @@ Then open http://127.0.0.1:8765/. Students do not need Python or PSCAD when usin
 
 ## Single-file virtual laboratory
 
+[Open the self-contained laboratory directly in your browser](https://angelohafner.github.io/hvdc-lcc-commutation-failure-lab/HVDC_LCC_Virtual_Laboratory.html).
+
 [Download the self-contained HTML (77 MB)](https://github.com/angelohafner/hvdc-lcc-commutation-failure-lab/releases/download/v1.1.0/HVDC_LCC_Virtual_Laboratory.html).
 
 The standalone edition combines all eight modules, the technical report, KaTeX/fonts,
@@ -75,6 +77,11 @@ node tests/test_html/single_file.cjs
 
 The manifest beside the generated HTML records its size and SHA-256. It is audit
 metadata and is not needed to run the HTML. See [standalone verification](reports/single_file_validation.md).
+
+GitHub Pages publishes the tested HTML alongside the multipage site through the
+validation workflow. Deployment runs only after the Python and browser checks
+pass on `main`. The large generated HTML is included in the Pages artifact and
+release downloads, without storing a duplicate generated file in Git history.
 
 ## Reproduce PSCAD simulations
 
