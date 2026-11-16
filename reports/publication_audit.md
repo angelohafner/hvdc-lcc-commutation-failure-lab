@@ -37,4 +37,11 @@ The parent release checks own browser execution, PDF appearance, ZIP integrity, 
 - Offline ZIP: 57,807,022 bytes, 132 files. CRC and all packaged dataset bytes verified. Extracted package passed direct-file hub and recovery/comparison checks with no JavaScript errors.
 - ZIP SHA-256: `ea158d68394209bb8ada6ba71f7d04b10e3ab0ebcb2bc81f0136767ba506544d`.
 - Current shareable checkout scan passed. One old OS-account stamp exists only in excluded development history; no credential-like matches were found in that original history.
-- Public-branch and live deployment checks follow below once performed.
+- Public history scan passed for commit `fd46852a0eafd3bf5e89d50afc223e97c151e57b`: 622 reachable blobs, no findings. Original development history remains in the local `local-development` branch and `.local/prepublication-history.bundle`; neither was pushed.
+- Public repository: https://github.com/angelohafner/hvdc-lcc-commutation-failure-lab . Remote contains only `main` at this verification.
+- GitHub Pages: https://angelohafner.github.io/hvdc-lcc-commutation-failure-lab/ . Configured from `main:/docs`; deployment completed successfully at 2026-11-16T22:55:24Z.
+- [GitHub validation run](https://github.com/angelohafner/hvdc-lcc-commutation-failure-lab/actions/runs/43974402621) passed dependency installation, 16 Python tests (six native-evidence tests explicitly skipped), current-release audit and all browser groups on a clean Windows runner.
+- [Pages deployment run](https://github.com/angelohafner/hvdc-lcc-commutation-failure-lab/actions/runs/43974491508) completed successfully.
+- The complete browser suite passed with `LAB_URL` set to the public Pages URL: all eight modules, 29 recordings, desktop/mobile viewport controls and the final local direct-file regression; no JavaScript errors or failed assets. See public_browser_tests.json.
+- The published hub was opened and visually verified in the in-app browser. Native simulation results remain the original 31 accepted recordings; this audit did not rerun PSCAD.
+- Release assets use the verified offline ZIP and PDF; the release manifest records the ZIP hash above. Subsequent commits recording these audit results change documentation/evidence only.

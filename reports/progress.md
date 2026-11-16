@@ -37,3 +37,5 @@ Final release checks: 19 Python tests and 25 browser check groups passed; all 29
 
 
 Publication resumed by the owner on 16 November 2026. A second independent review found two Important issues (contradictory returned-current evidence and whole-record source residuals hiding short mismatches) plus one Minor guide wording issue. All were corrected with three observed failing-then-passing regressions. The 22-test suite and all 97 source segments pass. Corrected classification reproduces every stored event exactly. Publication starts from an audited snapshot; original local history is retained because an early project revision contains an OS-account author stamp. The detailed publication record is reports/publication_audit.md.
+
+Public repository and GitHub Pages are now deployed. GitHub validation run 43974402621 and Pages deployment 43974491508 succeeded. Full browser verification against the live URL passed all 25 groups. Native results remain unchanged. Original development history is retained locally only; public main starts from the audited snapshot. Offline ZIP and 20-page report are packaged for release v1.0.0.

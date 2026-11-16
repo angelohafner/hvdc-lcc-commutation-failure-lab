@@ -1,0 +1,31 @@
+{
+  "completed_at": "2026-11-16T22:56:42.206Z",
+  "passed": [
+    "Selected valve changes waveform legend",
+    "Presentation mode pauses and preserves selections",
+    "index.html desktop controls",
+    "index.html mobile layout",
+    "modules/01_lcc_inverter_fundamentals.html desktop controls",
+    "modules/01_lcc_inverter_fundamentals.html mobile layout",
+    "modules/02_commutation_and_extinction_angle.html desktop controls",
+    "modules/02_commutation_and_extinction_angle.html mobile layout",
+    "modules/03_normal_vs_failed_commutation.html desktop controls",
+    "modules/03_normal_vs_failed_commutation.html mobile layout",
+    "modules/04_ac_faults_and_commutation_failures.html desktop controls",
+    "modules/04_ac_faults_and_commutation_failures.html mobile layout",
+    "modules/05_repeated_commutation_failures.html desktop controls",
+    "modules/05_repeated_commutation_failures.html mobile layout",
+    "modules/06_parameters_and_mitigation.html desktop controls",
+    "modules/06_parameters_and_mitigation.html mobile layout",
+    "modules/07_interactive_exercises.html desktop controls",
+    "modules/07_interactive_exercises.html mobile layout",
+    "Rendered equations and recorded case selection",
+    "Timeline filters and selects real events",
+    "Every exported case loads its own recording",
+    "Circuit conduction agrees with selected native CSV samples",
+    "Quiz feedback, scoring, reset and graphical selection",
+    "Direct file opening without a local server",
+    "No browser errors or failed HTTP assets"
+  ],
+  "errors": []
+}
